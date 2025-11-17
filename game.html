@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <script src="game.js"></script>
+    <title>Flip a coin</title>
+</head>
+<body>
+    <h1>Flip a Coin</h1>
+    <h2>Heads or Tails - Choose your side</h2>
+
+    <button onclick="chooseCoin(1)"><img src="images/heads.jpg"></button>
+    <button onclick="chooseCoin(2)"><img src="images/tails.jpg"></button>
+    <br><br><br>
+    <div id="results">Choose a side to start the game.</div>
+    <br><br>
+    <div id="totalGames">No games played</div>
+    <br><br>
+    <div id="wins">You have not won any games</div>
+    <br><br>
+    <div id="losses">You have not lost any games</div>
+    <br><br>
+    <div id="heads">No games have landed on heads yet</div>
+    <br><br>
+    <div id="tails">No games have landed on tails yet</div>
+    <button onclick="resetGame()">Reset Game</button>
+
+</body>
+</html

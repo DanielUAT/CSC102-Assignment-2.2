@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #8238e1;
+    margin: 0;
+    padding: 20px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+    color: red
+}
+
+button img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+
+}
+
+#results, #totalGames, #wins, #losses, #heads, #tails {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: rgb(51, 235, 48)
+}
+
+h1, h2
+{
+    color: white;
+}
+
+h2
+{
+    font-style: italic;
+}
+#results {
+    font-weight: bold;
+}
